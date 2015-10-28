@@ -1,0 +1,151 @@
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #FFFFFF;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 89;
+    height 100%;
+}
+
+.content {
+    background: black;
+}
+body {
+    background: black;
+    z-index:-150;
+}
+
+
+header {
+        width:100%;
+        height:7%;
+        background:#000000; 
+        position:fixed;
+        color:#fff;
+        text-align:left;
+        font-size:200%;
+    }
+    .pos {
+        top:0px;
+        color: #FFFFFF; 
+    }
+    .pos1{
+        height: 40%;
+        color: dimgray;
+        background: #1B1B1B;
+        z-index: -100;
+        display: inline-block;
+        width:100%;
+        text-align: center;
+         
+    }
+    .header-links {
+        font-size: 60%;
+        float: none;
+    }
+
+.copyright {
+        color: dimgray;
+        z-index: -100;
+        display: inline-block;
+        width:100%;
+        text-align: center;
+        font-size:70%;
+}
+
+.subtitle {
+    color: white;
+    float: left;
+}
+
+
+.fire {
+    width:100%;
+    display:inline-block;
+}
+
+.portrait {
+    width:30%;
+    float:right;
+    max-height: 400px;
+}
+
+.who-is {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 450%
+}
+    
+.who-is-text {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 200%;
+}
+
+.who-is-text2 {
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 160%;
+}
+
+.data {
+    position: center center;
+}
+
+
+.demo-1 .large-header {
+	background-image: url('https://images.unsplash.com/photo-1428452932365-4e7e1c4b0987?q=80&fm=jpg&s=65ec6a6b5ce90c1448e0760e0eb2d467');
+}
+
+
+.demo-canvas {
+    position: fixed;
+}
+
+.down-arrow {
+    color:#FFFFFF;
+    top: 90%;
+    left: 50%;
+    opacity: 0.2;
+}
+
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+    width: 80%
+        
+
+}
+
+.demo-1 .main-title {
+	/*text-transform: uppercase;*/
+	font-size: 4.0em;
+	letter-spacing: 0.4em;
+}
+
+
+.main-title .thin {
+	font-weight: 100;
+    letter-spacing: 0.20em;
+    font-size: 0.5em;
+    color: #000000;
+}
+
+@media only screen and (max-width : 100%) {
+	.demo-1 .main-title,  {
+		font-size: 3em;
+	}
+}
+
+
